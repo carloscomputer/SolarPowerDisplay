@@ -2,7 +2,7 @@
 import asyncio
 from APsystemsEZ1 import APsystemsEZ1M
 
-IP = "10.10.10.200"
+IP = ""
 
 async def main():
     dev = APsystemsEZ1M(IP)
